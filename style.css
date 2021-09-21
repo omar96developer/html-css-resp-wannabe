@@ -73,11 +73,38 @@ img {
 }
 
 
-/* MEDIAQUERRY */
+/* MEDIA QUERY TABLET */
+
+@media screen and (max-width: 800px) {
+  .row {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #lezioni .row .left,
+  #lezioni .row .right,
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right,
+  #why .row .first,
+  #why .row .second,
+  #why .row .third {
+    width: 85%;
+  }
+  #lezioni .row div,
+  #steps .row div {
+    margin-top: 30px;
+  }
+} 
+
+
+/* MEDIA QUERY SMARTPHONE */
+
 
 @media screen and (max-width: 420px) {
  .row {
-   width: 400px;
+   width: 90%;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -87,21 +114,22 @@ img {
    width: 200px;
    object-fit:contain;
    box-sizing: border-box;
+   
  }
 
- #lezioni .row .left,
- #lezioni .row .right,
- #steps .row .left,
- #steps .row .central,
- #steps .row .right,
- #why .row .first,
- #why .row .second,
- #why .row .third {
-   width: 300px;
- }
+  #lezioni .row .left,
+  #lezioni .row .right,
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right,
+  #why .row .first,
+  #why .row .second,
+  #why .row .third {
+    width: 85%;
+  }
 
-#lezioni .row div,
-#steps .row div {
-  margin-top: 30px;
-}
+  #lezioni .row div,
+  #steps .row div {
+    margin-top: 30px;
+  }
 }
