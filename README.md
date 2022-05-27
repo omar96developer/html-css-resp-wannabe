@@ -13,7 +13,7 @@ Hope you like it 😁.
 
 ## Demo
 
-[🔗 Website link](https://boll-academy.netlify.app/)
+[🔗 Website link](https://bool-academy.netlify.app/)
 
 
 
