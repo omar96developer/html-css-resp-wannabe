@@ -1,5 +1,5 @@
 
-# NEORI
+# BOOL ACADEMY
 Hello everybody!  
 
 
